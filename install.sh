@@ -5,11 +5,13 @@
 p="slapd ldap-utils phpldapadmin"
 
 echo "INFO - Removing old Ldap installation"
-
 apt-get -y remove --purge $p 
 apt-get -y autoremove
 rm -rf /etc/ldap
 
+# note that ldap install uses the hostname in /etc/hots file.
+# edit it as appropriate, examle:
+# 127.0.1.1       ikaros.dusken.no        ikaros
 echo "INFO - Installing LDAP "
 apt-get -y install $p
 
