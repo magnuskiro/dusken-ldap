@@ -1,0 +1,9 @@
+dn: ou=groups,dc=dusken,dc=no
+ou: groups
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=users,dc=dusken,dc=no
+ou: users
+objectClass: top
+objectClass: organizationalUnit

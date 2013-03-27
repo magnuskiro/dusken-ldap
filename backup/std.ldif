@@ -1,0 +1,28 @@
+dn: dc=dusken,dc=no
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: dusken.no
+dc: dusken
+structuralObjectClass: organization
+entryUUID: f6bb9590-2b51-1032-9e79-2d625cde34f2
+creatorsName: cn=admin,dc=dusken,dc=no
+createTimestamp: 20130327174614Z
+entryCSN: 20130327174614.236661Z#000000#000#000000
+modifiersName: cn=admin,dc=dusken,dc=no
+modifyTimestamp: 20130327174614Z
+
+dn: cn=admin,dc=dusken,dc=no
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e1NTSEF9YWZDRE5rOGZrYlpYaWpkckNjRWVuODdkV2VwbkJEek4=
+structuralObjectClass: organizationalRole
+entryUUID: f6d247c2-2b51-1032-9e7a-2d625cde34f2
+creatorsName: cn=admin,dc=dusken,dc=no
+createTimestamp: 20130327174614Z
+entryCSN: 20130327174614.385408Z#000000#000#000000
+modifiersName: cn=admin,dc=dusken,dc=no
+modifyTimestamp: 20130327174614Z
+

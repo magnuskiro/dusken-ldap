@@ -1,0 +1,21 @@
+# insert new entries at the top of the document. 
+# this way we add new entries until an existing one is found
+# then the command crashes. 
+
+
+# access groups for different systems or roles
+
+dn: cn=chief editor,ou=groups,dc=dusken,dc=no
+cn: chiefeditor
+objectClass: groupofnames
+description: Chief editors of the media.
+member:
+
+# Departments
+dn: cn=it,ou=groups,dc=dusken,dc=no
+cn: it
+gidNumber: 1
+objectClass: top
+objectClass: posixGroup
+description: the IT department
+memberUid: 

@@ -1,0 +1,16 @@
+# not tested
+
+dn: dc=dusken,dc=no
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Dusken
+dc: dusken
+
+dn: cn=admin,dc=dusken,dc=no
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: {myPasswordHere}
+
